@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/uo-phys/comp-phys-26)
+
 # Notebooks and Data for Computational Physics - Spring 26
 
 This is a collection of notebooks and data, which will be added to throughout the term.
