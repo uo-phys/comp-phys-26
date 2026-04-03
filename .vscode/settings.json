@@ -1,5 +1,15 @@
 {
-    "python.defaultInterpreterPath": ".venv/bin/python",
+    // Tells the new extension exactly where to look for the uv environment
+    "python-envs.workspaceSearchPaths": [
+        ".venv"
+    ],
+
+    // Ensures uv is prioritized for all backend operations (creation/syncing)
+    "python-envs.alwaysUseUv": true,
+
+    // Recommended: auto-activates the terminal using the discovered .venv
     "python.terminal.activateEnvironment": true,
-    "jupyter.notebookEditor.defaultKernel": ".venv"
+
+    // Optional: Hide the legacy setting if it's still in your User settings
+    "python.defaultInterpreterPath": null
 }
