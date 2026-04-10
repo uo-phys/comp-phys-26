@@ -29,7 +29,7 @@ uv run jupyter lab
 
 ### Week 2
 
-* Continue our introduction to sampling, including importance sampling: [Intro to Sampling.ipynb](notebooks/Intro%20to%20Sampling.ipynb)
+* Continue our introduction to sampling, including importance sampling and starting MCMC: [Intro to Sampling.ipynb](notebooks/Intro%20to%20Sampling.ipynb)
 
 ## Data Provenance
 
