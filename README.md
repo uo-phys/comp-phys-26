@@ -31,6 +31,11 @@ uv run jupyter lab
 
 * Continue our introduction to sampling, including importance sampling and starting MCMC: [Intro to Sampling.ipynb](notebooks/Intro%20to%20Sampling.ipynb)
 
+### Week 3
+
+* Wrap up MCMC: [Intro to Sampling.ipynb](notebooks/Intro%20to%20Sampling.ipynb)
+* Introduce Gaia data and explore the solar neighborhood: [Solar Neighborhood w Gaia.ipynb](notebooks/Solar%20Neighborhood%20w%20Gaia.ipynb)
+
 ## Data Provenance
 
 ### Exploring births in the US
