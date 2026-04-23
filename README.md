@@ -38,6 +38,7 @@ uv run jupyter lab
 
 ### Week 4
 
+* Return to [Intro to Sampling.ipynb](notebooks/Intro%20to%20Sampling.ipynb) and implement MCMC sampling.
 * Continue building the statistical foundation behind regression: [Intro to Regression.ipynb](notebooks/Intro%20to%20Regression.ipynb)
 * Introduce Gaia data and explore the solar neighborhood: [Solar Neighborhood w Gaia.ipynb](notebooks/Solar%20Neighborhood%20w%20Gaia.ipynb)
 
