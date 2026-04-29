@@ -42,6 +42,12 @@ uv run jupyter lab
 * Continue building the statistical foundation behind regression: [Intro to Regression.ipynb](notebooks/Intro%20to%20Regression.ipynb)
 * Introduce Gaia data and explore the solar neighborhood: [Solar Neighborhood w Gaia.ipynb](notebooks/Solar%20Neighborhood%20w%20Gaia.ipynb)
 
+### Week 5
+
+* Introduce `JAX` and `numpyro`: [Intro to NumPyro.ipynb](notebooks/Intro%20to%20NumPyro.ipynb)
+* Explore coin flipping example to develop intuition for Bayes' theorem: [Coin Flipping w Numpyro.ipynb](notebooks/Coin%20Flipping%20w%20Numpyro.ipynb)
+
+
 ## Data Provenance
 
 ### Exploring births in the US
