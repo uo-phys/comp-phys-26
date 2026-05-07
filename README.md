@@ -46,10 +46,13 @@ uv run jupyter lab
 
 * Introduce `JAX` and `numpyro`: [Intro to NumPyro.ipynb](notebooks/Intro%20to%20NumPyro.ipynb)
 * Explore coin flipping example to develop intuition for Bayes' theorem: [Coin Flipping w Numpyro.ipynb](notebooks/Coin%20Flipping%20w%20Numpyro.ipynb)
+* Use `numpyro` to probabilistically model outliers during linear regression: [Modeling Outliers w NumPyro.ipynb](notebooks/Modeling%20Outliers%20w%20NumPyro.ipynb)
+
 
 ### Week 6
 
-* Use `numpyro` to probabilistically model outliers during linear regression: [Modeling Outliers w NumPyro.ipynb](notebooks/Modeling%20Outliers%20w%20NumPyro.ipynb)
+* Use more complex regression to model and extrapolate CO$_2$ emission on Mauna: [CO2 w NumPyro.ipynb](notebooks/CO2%20w%20NumPyro.ipynb)
+
 
 ## Data Provenance
 
