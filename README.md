@@ -52,7 +52,11 @@ uv run jupyter lab
 ### Week 6
 
 * Use more complex regression to model and extrapolate CO$_2$ emission on Mauna: [CO2 w NumPyro.ipynb](notebooks/CO2%20w%20NumPyro.ipynb)
+* Introduce terminology and formalism for machine learning, first in the context of regression with Gaia data: [Intro to Machine Learning](notebooks/Intro%20to%20Machine%20Learning%20(w%20Gaia).ipynb)
 
+### Week 7
+
+* Introduce logistic regression for object classification with pulsar data: [Logistic Regression](notebooks/Logistic%20Regression.ipynb)
 
 ## Data Provenance
 
@@ -100,3 +104,7 @@ Monthy-averaged CO<sub>2</sub> concentrations measured in Mauna Loa, Hawaii, hos
 ```bash
 !wget -q ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt -O ../data/co2_mm_mlo.txt
 ```
+
+### Pulsar data from HTRU2
+
+Data from the High Time Resolution Universe Survey (HTRU2). The dataset and documentation can be found [here](https://archive.ics.uci.edu/dataset/372/htru2), and more information can be found in [Lyon et al. 2016](https://academic.oup.com/mnras/article/459/1/1104/2608953?login=true).
