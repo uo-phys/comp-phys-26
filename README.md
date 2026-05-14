@@ -108,3 +108,26 @@ Monthy-averaged CO<sub>2</sub> concentrations measured in Mauna Loa, Hawaii, hos
 ### Pulsar data from HTRU2
 
 Data from the High Time Resolution Universe Survey (HTRU2). The dataset and documentation can be found [here](https://archive.ics.uci.edu/dataset/372/htru2), and more information can be found in [Lyon et al. 2016](https://academic.oup.com/mnras/article/459/1/1104/2608953?login=true).
+
+
+### SDSS Quasars
+
+This is data collected by the Sloan Digital Sky Survey (SDSS) relating to quasars. The catalogs we'll be using are part of [PSU's astrostatistics datasets](https://sites.psu.edu/astrostatistics/datasets/).  We need three separate files, separated by spectroscopically confirmed classifications.
+
+Spectroscopically confirmed stars:
+```bash
+!wget -q --no-check-certificate -O ../data/SDSS_stars.csv https://raw.githubusercontent.com/Astroinformatics/CAStArchive/refs/heads/main/MSMA/SDSS_stars.csv
+```
+
+white dwarfs:
+```bash
+!wget -q --no-check-certificate -O ../data/SDSS_wd.csv https://raw.githubusercontent.com/Astroinformatics/CAStArchive/refs/heads/main/MSMA/SDSS_wd.csv
+```
+
+and quasars:
+```bash
+!wget -q --no-check-certificate -O ../data/SDSS_QSO.dat https://raw.githubusercontent.com/Astroinformatics/CAStArchive/refs/heads/main/MSMA/SDSS_QSO.dat
+```
+
+More info on the dataset can be found [here](https://sites.psu.edu/astrostatistics/datasets-sdss-quasar/).
+
