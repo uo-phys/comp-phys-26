@@ -57,6 +57,12 @@ uv run jupyter lab
 ### Week 7
 
 * Introduce logistic regression for object classification with pulsar data: [Logistic Regression](notebooks/Logistic%20Regression.ipynb)
+* Use logistic regression to identify quasars in Sloan Digital Sky Survey data: [Logistic Regression w SDSS.ipynb](notebooks/Logistic%20Regression%20w%20SDSS.ipynb)
+
+### Week 8
+
+* Finish using logistic regression to identify quasars in Sloan Digital Sky Survey data: [Logistic Regression w SDSS.ipynb](notebooks/Logistic%20Regression%20w%20SDSS.ipynb)
+* Introduce one-vs-all for multi-class classification: [Multiclass Classification.ipynb](notebooks/Multiclass%20Classification.ipynb)
 
 ## Data Provenance
 
