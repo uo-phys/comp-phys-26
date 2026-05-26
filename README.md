@@ -139,3 +139,21 @@ and quasars:
 
 More info on the dataset can be found [here](https://sites.psu.edu/astrostatistics/datasets-sdss-quasar/).
 
+
+### M4
+
+We make use of two separate data products from the Gaia collaboration. First is a cluster catalog [here](http://cdsarc.u-strasbg.fr/ftp/J/A+A/616/A12/files/NGC6121-1.dat), which is associated with [this paper](https://www.aanda.org/articles/aa/abs/2018/08/aa32698-18/aa32698-18.html) looking at the kinematics of many globular clusters.  The full data release associated with the paper can be found [here](http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/616/A12), and includes tables of members identified for each cluster they studied. This can be downloaded directly with:
+```bask
+wget http://cdsarc.u-strasbg.fr/ftp/J/A+A/616/A12/files/NGC6121-1.dat -O ../data/NGC6121-1.dat
+```
+
+Second, we use `m4_gaia_source.csv`, which was pulled from the Gaia data archive with the following query:
+```sql
+SELECT TOP 1000000 gaia_source.designation,gaia_source.source_id,gaia_source.ra,gaia_source.dec,gaia_source.parallax,gaia_source.parallax_error,gaia_source.parallax_over_error,gaia_source.pm,gaia_source.pmra,gaia_source.pmra_error,gaia_source.pmdec,gaia_source.pmdec_error,gaia_source.astrometric_n_good_obs_al,gaia_source.astrometric_chi2_al,gaia_source.visibility_periods_used,gaia_source.phot_g_mean_flux_over_error,gaia_source.phot_g_mean_mag,gaia_source.phot_bp_mean_flux_over_error,gaia_source.phot_bp_mean_mag,gaia_source.phot_rp_mean_flux_over_error,gaia_source.phot_rp_mean_mag,gaia_source.phot_bp_rp_excess_factor,gaia_source.bp_rp,gaia_source.radial_velocity,gaia_source.radial_velocity_error
+FROM gaiadr3.gaia_source
+WHERE 
+CONTAINS(
+	POINT('ICRS',gaiadr3.gaia_source.ra,gaiadr3.gaia_source.dec),
+	BOX('ICRS',246,-26.5,3,3)
+)=1
+```
