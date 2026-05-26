@@ -63,6 +63,8 @@ uv run jupyter lab
 
 * Finish using logistic regression to identify quasars in Sloan Digital Sky Survey data: [Logistic Regression w SDSS.ipynb](notebooks/Logistic%20Regression%20w%20SDSS.ipynb)
 * Introduce one-vs-all for multi-class classification: [Multiclass Classification.ipynb](notebooks/Multiclass%20Classification.ipynb)
+* Introduction to neural networks with flax: [Intro to Flax.ipynb](notebooks/Intro%20to%20Flax.ipynb)
+* Dense neural networks for multi-class classification: [Dense Neural Network on MNIST Digits.ipynb](notebooks/Dense%20Neural%20Network%20on%20MNIST%20Digits.ipynb)
 
 ## Data Provenance
 
