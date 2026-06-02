@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "arviz>=1.0.0",
+    "astropy>=7.2.0",
     "clu>=0.0.12",
     "daft-pgm>=0.1.4",
     "flax>=0.12.6",
