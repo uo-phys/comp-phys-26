@@ -66,6 +66,15 @@ uv run jupyter lab
 * Introduction to neural networks with flax: [Intro to Flax.ipynb](notebooks/Intro%20to%20Flax.ipynb)
 * Dense neural networks for multi-class classification: [Dense Neural Network on MNIST Digits.ipynb](notebooks/Dense%20Neural%20Network%20on%20MNIST%20Digits.ipynb)
 
+### Week 9
+
+* Identifying members of globular cluster M4 with dense neural networks: [Dense Neural Network Classifier for M4.ipynb](notebooks/Dense%20Neural%20Network%20Classifier%20for%20M4.ipynb)
+
+### Week 10
+
+* Wrapped up identifying members of M4 with dense neural networks: [Dense Neural Network Classifier for M4.ipynb](notebooks/Dense%20Neural%20Network%20Classifier%20for%20M4.ipynb)
+* We briefly introduced convolutional neural networks and used them to identify volcanoes on venus: [VenusVolcanoes.ipynb](notebooks/VenusVolcanoes.ipynb)
+
 ## Data Provenance
 
 ### Exploring births in the US
